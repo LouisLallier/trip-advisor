@@ -199,12 +199,14 @@ header img {
 }
 
 .carrouselImg {
-  position: relative;
   height: 200px;
   width: 270px;
 }
 .choice2022 {
+  border-radius: 8px;
   position: absolute;
+  top: 10px;
+  left: 10px;
   height: 45px;
   width: 35px;
 }
@@ -235,6 +237,7 @@ section {
 }
 
 .carrousel li {
+  position: relative;
   width: 270px;
   height: 300px;
 }
