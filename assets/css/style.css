@@ -212,12 +212,13 @@ header img {
 }
 
 section {
-  padding-top: 60px;
-  height: 300px;
+  height: 320px;
+  padding-bottom: 20px;
   display: flex;
 }
 
 .carrouselsTitle {
+  padding-bottom: 50px;
   font-size: 30px;
   font-weight: bold;
   margin-top: 40px;
@@ -228,12 +229,14 @@ section {
 }
 
 .carrousel {
+  top: 0;
   flex: 3;
   display: flex;
   gap: 18px;
   flex-shrink: 0;
   width: 950px;
-  overflow-x: scroll;
+  height: 100%;
+  overflow: scroll;
 }
 
 .carrousel li {
